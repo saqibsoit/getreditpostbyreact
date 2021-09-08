@@ -16,7 +16,7 @@ function Reddit() {
 
   return (
     <div>
-      <h1> Reddid Post </h1>
+      <h1> Reddid Post Saqib </h1>
       <ul>
         {posts.map((post) => (
           <li key={post.id}> {post.title}</li>
