@@ -16,7 +16,7 @@ function Reddit() {
 
   return (
     <div>
-      <h1> /r/reactjs </h1>
+      <h1> Reddit Posts </h1>
       <ul>
         {posts.map((post) => (
           <li key={post.id}> {post.title}</li>
